@@ -1,0 +1,54 @@
+.titulo{
+	text-align: center;
+	color: white;
+	font-family: Courier New;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.fundo{
+	background-color: black;
+}
+
+.Row{
+	background-color: #121212;
+	margin-top: 100px;
+	border-radius: 10px;
+
+}
+
+.controles{
+	width: 97%;	
+	position: absolute;
+	bottom: 0;
+
+}
+
+.col-md{
+	 
+	height: 450px;
+	position: relative;
+}
+
+.divLista{
+	max-height:380px; 
+	overflow-y:auto;
+}
+
+.active{
+	background-color: white;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4f4f4f;
+}
